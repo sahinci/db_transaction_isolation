@@ -1,9 +1,11 @@
-package com.transactiontest.sahintransaction;
+package com.transactiontest.sahintransaction.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.transactiontest.sahintransaction.model.Invoice;
 
 @Repository
 public interface InvoiceRepository extends JpaRepository<Invoice, Integer>
